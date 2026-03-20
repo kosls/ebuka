@@ -1,0 +1,20 @@
+body{
+    background: black;
+}
+#btn{
+    background: red;
+    font-size: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 15px solid lightslategray;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn:active{
+    font-size: 245px;
+}
